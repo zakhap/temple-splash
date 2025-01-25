@@ -47,6 +47,7 @@ body {
     background-color: black;
     color: green;
     font-family: 'Courier New', Courier, monospace;
+    position: relative;
 }
 
 h1, h2 {
@@ -133,4 +134,20 @@ img {
     display: block;
     margin: 0 auto;
     width: 14em;
+}
+
+.blinking-cursor::after {
+    content: '▮';
+    display: inline-block;
+    animation: blink 1s step-end infinite;
+    color: lime;
+}
+
+@keyframes blink {
+    from, to {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
 }
