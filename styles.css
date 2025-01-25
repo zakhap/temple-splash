@@ -45,19 +45,19 @@ table {
 
 body {
     background-color: black;
-    color: rgba(211, 211, 211, 0.8);
+    color: rgba(139, 183, 137);
     font-family: 'Courier New', Courier, monospace;
     position: relative;
 }
 
 h1, h2 {
-    color: rgba(211, 211, 211, 0.8);
-    text-shadow: 0 0 5px rgba(211, 211, 211, 0.8);
+    color: rgba(139, 183, 137);
+    text-shadow: 0 0 5px rgba(139, 183, 137);
     font-size: 2em;
 }
 
 a {
-    color: rgba(211, 211, 211, 0.8);
+    color: rgba(139, 183, 137);
     text-decoration: underline;
 }
 
@@ -70,7 +70,7 @@ p {
 }
 
 strong {
-    color: rgba(211, 211, 211, 0.8);
+    color: rgba(139, 183, 137);
 }
 
 header, footer {
@@ -81,22 +81,22 @@ header, footer {
 
 button {
     background-color: #111;
-    color: rgba(211, 211, 211, 0.8);
-    border: 1px solid rgba(211, 211, 211, 0.8);
+    color: rgba(139, 183, 137);
+    border: 1px solid rgba(139, 183, 137);
     padding: 5px 10px;
     cursor: pointer;
     font-family: 'Courier New', Courier, monospace;
 }
 
 button:hover {
-    background-color: rgba(211, 211, 211, 0.8);
+    background-color: rgba(139, 183, 137);
     color: black;
 }
 
 input, textarea {
     background-color: #111;
-    color: rgba(211, 211, 211, 0.8);
-    border: 1px solid rgba(211, 211, 211, 0.8);
+    color: rgba(139, 183, 137);
+    border: 1px solid rgba(139, 183, 137);
     padding: 5px;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -107,18 +107,18 @@ input::placeholder, textarea::placeholder {
 
 table {
     width: 100%;
-    border: 1px solid rgba(211, 211, 211, 0.8);
+    border: 1px solid rgba(139, 183, 137);
 }
 
 th, td {
-    border: 1px solid rgba(211, 211, 211, 0.8);
+    border: 1px solid rgba(139, 183, 137);
     padding: 5px;
     text-align: left;
 }
 
 th {
     background-color: #111;
-    color: rgba(211, 211, 211, 0.8);
+    color: rgba(139, 183, 137);
 }
 
 tr:nth-child(even) {
@@ -141,7 +141,7 @@ img {
     content: " █";
     display: inline-block;
     animation: blink 1s step-end infinite;
-    color: rgba(211, 211, 211, 0.8);
+    color: rgba(139, 183, 137);
 }
 
 @keyframes blink {
