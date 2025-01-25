@@ -45,19 +45,19 @@ table {
 
 body {
     background-color: black;
-    color: green;
+    color: gray;
     font-family: 'Courier New', Courier, monospace;
     position: relative;
 }
 
 h1, h2 {
-    color: lime;
-    text-shadow: 0 0 5px green;
+    color: gray;
+    text-shadow: 0 0 5px gray;
     font-size: 2em;
 }
 
 a {
-    color: lime;
+    color: gray;
     text-decoration: none;
 }
 
@@ -70,7 +70,7 @@ p {
 }
 
 strong {
-    color: lime;
+    color: gray;
 }
 
 header, footer {
@@ -81,22 +81,22 @@ header, footer {
 
 button {
     background-color: #111;
-    color: lime;
-    border: 1px solid lime;
+    color: gray;
+    border: 1px solid gray;
     padding: 5px 10px;
     cursor: pointer;
     font-family: 'Courier New', Courier, monospace;
 }
 
 button:hover {
-    background-color: lime;
+    background-color: gray;
     color: black;
 }
 
 input, textarea {
     background-color: #111;
-    color: lime;
-    border: 1px solid lime;
+    color: gray;
+    border: 1px solid gray;
     padding: 5px;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -107,18 +107,18 @@ input::placeholder, textarea::placeholder {
 
 table {
     width: 100%;
-    border: 1px solid lime;
+    border: 1px solid gray;
 }
 
 th, td {
-    border: 1px solid lime;
+    border: 1px solid gray;
     padding: 5px;
     text-align: left;
 }
 
 th {
     background-color: #111;
-    color: lime;
+    color: gray;
 }
 
 tr:nth-child(even) {
@@ -141,7 +141,7 @@ img {
     content: '▮';
     display: inline-block;
     animation: blink 1s step-end infinite;
-    color: lime;
+    color: gray;
 }
 
 @keyframes blink {
