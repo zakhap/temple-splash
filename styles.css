@@ -65,7 +65,7 @@ a:hover {
 }
 
 p {
-    margin: 20px 0;
+    margin: 30px 0; /* Increased margin for more space between paragraphs */
 }
 
 strong {
